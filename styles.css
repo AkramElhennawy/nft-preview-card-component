@@ -1,0 +1,155 @@
+html{
+    width: 1440px;
+}
+
+body{
+    font-family: Outfit;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container{
+    width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.main-photo img{
+    width: 320px;
+    border-radius: 10px;
+}
+
+.text{
+    padding: 30px 30px 10px 30px;
+}
+
+.title{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.title span{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.description{
+    padding-bottom: 30px;
+}
+
+.description span{
+    color: hsl(215, 51%, 70%);
+    line-height: 1.4;
+}
+
+
+
+.days-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-text{
+    display: flex;
+    align-items: center;
+}
+
+.left-text span{
+    color: hsl(178, 100%, 50%);
+    padding-left: 8px;
+}
+
+.right-text{
+    display: flex;
+    align-items: center;
+}
+
+.right-text span{
+    color: hsl(215, 51%, 70%);
+    padding-left: 8px;
+}
+
+
+
+.line{
+    width: 320px;
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    border-style: solid;
+}
+
+
+.footer{
+    display: flex;
+    width: 320px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+
+.avatar-photo img{
+    width: 35px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.avatar-name{
+    padding-top: 8px;
+}
+
+.avatar-name span{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar-name span b{
+    color: hsl(0, 0%, 100%);
+}
+
+
+.attribution{
+    padding-top: 15px;
+    color: rgb(51, 100, 144);
+}
+
+
+@media (max-width: 567px) {
+    html{
+        width: 375px;
+    }
+
+    body{
+        top: 50%; /* IMPORTANT */
+        left: 50%; /* IMPORTANT */
+        display: block;
+        position: absolute;
+        width: 375px;
+        height:auto!important;
+        min-height:100vh;
+
+    }
+    
+}
+
+
+
+
+
+
+
